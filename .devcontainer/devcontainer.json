@@ -1,0 +1,9 @@
+{
+    "forwardPorts": [8080],
+    "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:14",
+    "name": "Codespaces Demo",
+	"remoteUser": "node",
+	"extensions": [
+        "dbaeumer.vscode-eslint"
+    ],
+}

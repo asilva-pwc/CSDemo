@@ -1,0 +1,35 @@
+{
+  "name": "csdemo",
+  "version": "0.1.0",
+  "description": "Codespaces Demo",
+  "main": "./src/index.ts",
+  "private": true,
+  "scripts": {
+    "build": "tsc --project ./",
+    "lint": "eslint ./src --ext .ts",
+    "start": "nodemon ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asilva-pwc/CSDemo.git"
+  },
+  "author": "Alex Silva <alex.queiroz.e.silva@pwc.ch>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/asilva-pwc/CSDemo/issues"
+  },
+  "homepage": "https://github.com/asilva-pwc/CSDemo#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.10",
+    "@types/node": "^14.14.20",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "eslint": "^7.17.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
