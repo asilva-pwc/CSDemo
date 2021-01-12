@@ -4,6 +4,8 @@
     "name": "Codespaces Demo",
 	"remoteUser": "node",
 	"extensions": [
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "github.vscode-pull-request-github",
     ],
 }
